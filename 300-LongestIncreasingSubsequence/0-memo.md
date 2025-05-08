@@ -48,6 +48,19 @@ https://github.com/tarinaihitori/leetcode/pull/31/files
 # step3
 動的計画法ので3回書きなおす
 
+# 4-binary.cpp
+コメントをもとに書き直した
+良い変数名が思いつかず、またそれを説明する良いコメントもなかなか思いつかない
+```cpp
+// 末尾の最小値をnumに更新できるlengthのiterator
+      auto new_LIS_itr =
+          upper_bound(length_to_min_last_num.begin(), length_to_min_last_num.end(), num - 1);
+```
+としたが、あまり分かりやすくないように感じる
+
+
+# 4-dp.cpp
+
 
 
 
